@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testng-results failed="0" passed="9" skipped="0" total="9">
+    <suite duration-ms="183387" name="cucumber.runtime.formatter.TestNGFormatter">
+        <test duration-ms="183387" name="cucumber.runtime.formatter.TestNGFormatter">
+            <class name="BAH Page Verifications">
+                <test-method duration-ms="25918" finished-at="2023-04-09T00:16:34Z" name="Check BAH Types" started-at="2023-04-09T00:16:34Z" status="PASS"/>
+                <test-method duration-ms="19219" finished-at="2023-04-09T00:16:34Z" name="Check BAH Types_2" started-at="2023-04-09T00:16:34Z" status="PASS"/>
+                <test-method duration-ms="18135" finished-at="2023-04-09T00:16:34Z" name="Check BAH Types_3" started-at="2023-04-09T00:16:34Z" status="PASS"/>
+            </class>
+            <class name="KSA Page Verifications">
+                <test-method duration-ms="21448" finished-at="2023-04-09T00:16:34Z" name="Check KSA Types" started-at="2023-04-09T00:16:34Z" status="PASS"/>
+                <test-method duration-ms="19005" finished-at="2023-04-09T00:16:34Z" name="Check KSA Types_2" started-at="2023-04-09T00:16:34Z" status="PASS"/>
+                <test-method duration-ms="20892" finished-at="2023-04-09T00:16:34Z" name="Check KSA Types_3" started-at="2023-04-09T00:16:34Z" status="PASS"/>
+            </class>
+            <class name="KUW Page Verifications">
+                <test-method duration-ms="20871" finished-at="2023-04-09T00:16:34Z" name="Check KUW Types" started-at="2023-04-09T00:16:34Z" status="PASS"/>
+                <test-method duration-ms="19498" finished-at="2023-04-09T00:16:34Z" name="Check KUW Types_2" started-at="2023-04-09T00:16:34Z" status="PASS"/>
+                <test-method duration-ms="18401" finished-at="2023-04-09T00:16:34Z" name="Check KUW Types_3" started-at="2023-04-09T00:16:34Z" status="PASS"/>
+            </class>
+        </test>
+    </suite>
+</testng-results>

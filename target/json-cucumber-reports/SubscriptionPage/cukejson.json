@@ -1,0 +1,1826 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-04-08T21:13:31.340Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1744158300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SubscriptionPageSteps.before(Scenario)"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Check BAH Types",
+        "description": "",
+        "id": "bah-page-verifications;check-bah-types;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 99254400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SubscriptionPageSteps.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13823932500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2006565900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "SubscriptionPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "User Navigate To Subscription Page BAH",
+            "match": {
+              "arguments": [
+                {
+                  "val": "BAH",
+                  "offset": 35
+                }
+              ],
+              "location": "SubscriptionPageSteps.aUserNavigateToSubscriptionTypePage(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 39998900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2003928100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "SubscriptionPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "User Note Type LITE is Exist",
+            "match": {
+              "arguments": [
+                {
+                  "val": "LITE",
+                  "offset": 15
+                }
+              ],
+              "location": "SubscriptionPageSteps.aUserVerifySubscriptionType(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 38109300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2006729500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "SubscriptionPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "User Note The Price 2 for The Type LITE with The Country BAH is correct",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 20
+                },
+                {
+                  "val": "LITE",
+                  "offset": 35
+                },
+                {
+                  "val": "BAH",
+                  "offset": 57
+                }
+              ],
+              "location": "SubscriptionPageSteps.aUserVerifySubscriptionTypePrice(String,String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 102857500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2013655200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "SubscriptionPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "User Note Type LITE Currency is BHD for the Country BAH",
+            "match": {
+              "arguments": [
+                {
+                  "val": "LITE",
+                  "offset": 15
+                },
+                {
+                  "val": "BHD",
+                  "offset": 32
+                },
+                {
+                  "val": "BAH",
+                  "offset": 52
+                }
+              ],
+              "location": "SubscriptionPageSteps.aUserVerifySubscriptionTypeCurruncy(String,String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 25177900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2013798600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "SubscriptionPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "User Note BAH Flag",
+            "match": {
+              "arguments": [
+                {
+                  "val": "BAH",
+                  "offset": 10
+                }
+              ],
+              "location": "SubscriptionPageSteps.aUserVerifySubscriptionCuntoryFlag(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@BAH_Subscription_Page"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-04-08T21:13:57.262Z",
+        "before": [
+          {
+            "result": {
+              "duration": 634701700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SubscriptionPageSteps.before(Scenario)"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Check BAH Types",
+        "description": "",
+        "id": "bah-page-verifications;check-bah-types;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 129772500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SubscriptionPageSteps.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8270739700,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2000093600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "SubscriptionPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "User Navigate To Subscription Page BAH",
+            "match": {
+              "arguments": [
+                {
+                  "val": "BAH",
+                  "offset": 35
+                }
+              ],
+              "location": "SubscriptionPageSteps.aUserNavigateToSubscriptionTypePage(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 37941400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2002031800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "SubscriptionPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "User Note Type CLASSIC is Exist",
+            "match": {
+              "arguments": [
+                {
+                  "val": "CLASSIC",
+                  "offset": 15
+                }
+              ],
+              "location": "SubscriptionPageSteps.aUserVerifySubscriptionType(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 33298200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2000979400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "SubscriptionPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "User Note The Price 3 for The Type CLASSIC with The Country BAH is correct",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 20
+                },
+                {
+                  "val": "CLASSIC",
+                  "offset": 35
+                },
+                {
+                  "val": "BAH",
+                  "offset": 60
+                }
+              ],
+              "location": "SubscriptionPageSteps.aUserVerifySubscriptionTypePrice(String,String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 87557500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2000286900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "SubscriptionPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "User Note Type CLASSIC Currency is BHD for the Country BAH",
+            "match": {
+              "arguments": [
+                {
+                  "val": "CLASSIC",
+                  "offset": 15
+                },
+                {
+                  "val": "BHD",
+                  "offset": 35
+                },
+                {
+                  "val": "BAH",
+                  "offset": 55
+                }
+              ],
+              "location": "SubscriptionPageSteps.aUserVerifySubscriptionTypeCurruncy(String,String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 22275200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2000111600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "SubscriptionPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "User Note BAH Flag",
+            "match": {
+              "arguments": [
+                {
+                  "val": "BAH",
+                  "offset": 10
+                }
+              ],
+              "location": "SubscriptionPageSteps.aUserVerifySubscriptionCuntoryFlag(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@BAH_Subscription_Page"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-04-08T21:14:16.483Z",
+        "before": [
+          {
+            "result": {
+              "duration": 681286500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SubscriptionPageSteps.before(Scenario)"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Check BAH Types",
+        "description": "",
+        "id": "bah-page-verifications;check-bah-types;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 103111400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SubscriptionPageSteps.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7172329000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2000726400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "SubscriptionPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "User Navigate To Subscription Page BAH",
+            "match": {
+              "arguments": [
+                {
+                  "val": "BAH",
+                  "offset": 35
+                }
+              ],
+              "location": "SubscriptionPageSteps.aUserNavigateToSubscriptionTypePage(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 34661400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2002107400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "SubscriptionPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "User Note Type PREMIUM is Exist",
+            "match": {
+              "arguments": [
+                {
+                  "val": "PREMIUM",
+                  "offset": 15
+                }
+              ],
+              "location": "SubscriptionPageSteps.aUserVerifySubscriptionType(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 29777900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2000116800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "SubscriptionPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "User Note The Price 6 for The Type PREMIUM with The Country BAH is correct",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6",
+                  "offset": 20
+                },
+                {
+                  "val": "PREMIUM",
+                  "offset": 35
+                },
+                {
+                  "val": "BAH",
+                  "offset": 60
+                }
+              ],
+              "location": "SubscriptionPageSteps.aUserVerifySubscriptionTypePrice(String,String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 80000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2000321400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "SubscriptionPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "User Note Type PREMIUM Currency is BHD for the Country BAH",
+            "match": {
+              "arguments": [
+                {
+                  "val": "PREMIUM",
+                  "offset": 15
+                },
+                {
+                  "val": "BHD",
+                  "offset": 35
+                },
+                {
+                  "val": "BAH",
+                  "offset": 55
+                }
+              ],
+              "location": "SubscriptionPageSteps.aUserVerifySubscriptionTypeCurruncy(String,String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 29287900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2002053200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "SubscriptionPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "User Note BAH Flag",
+            "match": {
+              "arguments": [
+                {
+                  "val": "BAH",
+                  "offset": 10
+                }
+              ],
+              "location": "SubscriptionPageSteps.aUserVerifySubscriptionCuntoryFlag(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@BAH_Subscription_Page"
+          }
+        ]
+      }
+    ],
+    "name": "BAH Page Verifications",
+    "description": "",
+    "id": "bah-page-verifications",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/SubscriptionPage/01_BAHSub.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-04-08T21:14:34.619Z",
+        "before": [
+          {
+            "result": {
+              "duration": 650045200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SubscriptionPageSteps.before(Scenario)"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Check KSA Types",
+        "description": "",
+        "id": "ksa-page-verifications;check-ksa-types;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 88474700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SubscriptionPageSteps.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10548939100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2001839100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "SubscriptionPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "User Navigate To Subscription Page KSA",
+            "match": {
+              "arguments": [
+                {
+                  "val": "KSA",
+                  "offset": 35
+                }
+              ],
+              "location": "SubscriptionPageSteps.aUserNavigateToSubscriptionTypePage(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 32970900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2000936300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "SubscriptionPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "User Note Type LITE is Exist",
+            "match": {
+              "arguments": [
+                {
+                  "val": "LITE",
+                  "offset": 15
+                }
+              ],
+              "location": "SubscriptionPageSteps.aUserVerifySubscriptionType(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 31302800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2001066500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "SubscriptionPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "User Note The Price 15 for The Type LITE with The Country KSA is correct",
+            "match": {
+              "arguments": [
+                {
+                  "val": "15",
+                  "offset": 20
+                },
+                {
+                  "val": "LITE",
+                  "offset": 36
+                },
+                {
+                  "val": "KSA",
+                  "offset": 58
+                }
+              ],
+              "location": "SubscriptionPageSteps.aUserVerifySubscriptionTypePrice(String,String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 80871200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2001556000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "SubscriptionPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "User Note Type LITE Currency is SAR for the Country KSA",
+            "match": {
+              "arguments": [
+                {
+                  "val": "LITE",
+                  "offset": 15
+                },
+                {
+                  "val": "SAR",
+                  "offset": 32
+                },
+                {
+                  "val": "KSA",
+                  "offset": 52
+                }
+              ],
+              "location": "SubscriptionPageSteps.aUserVerifySubscriptionTypeCurruncy(String,String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10366700,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2000100300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "SubscriptionPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "User Note KSA Flag",
+            "match": {
+              "arguments": [
+                {
+                  "val": "KSA",
+                  "offset": 10
+                }
+              ],
+              "location": "SubscriptionPageSteps.aUserVerifySubscriptionCuntoryFlag(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@KSA_Subscription_Page"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-04-08T21:14:56.070Z",
+        "before": [
+          {
+            "result": {
+              "duration": 639877600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SubscriptionPageSteps.before(Scenario)"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Check KSA Types",
+        "description": "",
+        "id": "ksa-page-verifications;check-ksa-types;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 117599700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SubscriptionPageSteps.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8055705200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2000688500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "SubscriptionPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "User Navigate To Subscription Page KSA",
+            "match": {
+              "arguments": [
+                {
+                  "val": "KSA",
+                  "offset": 35
+                }
+              ],
+              "location": "SubscriptionPageSteps.aUserNavigateToSubscriptionTypePage(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 37485500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2000745200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "SubscriptionPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "User Note Type CLASSIC is Exist",
+            "match": {
+              "arguments": [
+                {
+                  "val": "CLASSIC",
+                  "offset": 15
+                }
+              ],
+              "location": "SubscriptionPageSteps.aUserVerifySubscriptionType(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 32494600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2000573500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "SubscriptionPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "User Note The Price 25 for The Type CLASSIC with The Country KSA is correct",
+            "match": {
+              "arguments": [
+                {
+                  "val": "25",
+                  "offset": 20
+                },
+                {
+                  "val": "CLASSIC",
+                  "offset": 36
+                },
+                {
+                  "val": "KSA",
+                  "offset": 61
+                }
+              ],
+              "location": "SubscriptionPageSteps.aUserVerifySubscriptionTypePrice(String,String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 86936700,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2000981600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "SubscriptionPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "User Note Type CLASSIC Currency is SAR for the Country KSA",
+            "match": {
+              "arguments": [
+                {
+                  "val": "CLASSIC",
+                  "offset": 15
+                },
+                {
+                  "val": "SAR",
+                  "offset": 35
+                },
+                {
+                  "val": "KSA",
+                  "offset": 55
+                }
+              ],
+              "location": "SubscriptionPageSteps.aUserVerifySubscriptionTypeCurruncy(String,String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 31325100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2001060100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "SubscriptionPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "User Note KSA Flag",
+            "match": {
+              "arguments": [
+                {
+                  "val": "KSA",
+                  "offset": 10
+                }
+              ],
+              "location": "SubscriptionPageSteps.aUserVerifySubscriptionCuntoryFlag(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@KSA_Subscription_Page"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-04-08T21:15:15.076Z",
+        "before": [
+          {
+            "result": {
+              "duration": 652563100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SubscriptionPageSteps.before(Scenario)"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Check KSA Types",
+        "description": "",
+        "id": "ksa-page-verifications;check-ksa-types;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 99376900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SubscriptionPageSteps.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9977324300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2000851600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "SubscriptionPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "User Navigate To Subscription Page KSA",
+            "match": {
+              "arguments": [
+                {
+                  "val": "KSA",
+                  "offset": 35
+                }
+              ],
+              "location": "SubscriptionPageSteps.aUserNavigateToSubscriptionTypePage(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 28634200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2000760300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "SubscriptionPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "User Note Type PREMIUM is Exist",
+            "match": {
+              "arguments": [
+                {
+                  "val": "PREMIUM",
+                  "offset": 15
+                }
+              ],
+              "location": "SubscriptionPageSteps.aUserVerifySubscriptionType(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 24951000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2000092100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "SubscriptionPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "User Note The Price 60 for The Type PREMIUM with The Country KSA is correct",
+            "match": {
+              "arguments": [
+                {
+                  "val": "60",
+                  "offset": 20
+                },
+                {
+                  "val": "PREMIUM",
+                  "offset": 36
+                },
+                {
+                  "val": "KSA",
+                  "offset": 61
+                }
+              ],
+              "location": "SubscriptionPageSteps.aUserVerifySubscriptionTypePrice(String,String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 74797000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2011596600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "SubscriptionPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "User Note Type PREMIUM Currency is SAR for the Country KSA",
+            "match": {
+              "arguments": [
+                {
+                  "val": "PREMIUM",
+                  "offset": 15
+                },
+                {
+                  "val": "SAR",
+                  "offset": 35
+                },
+                {
+                  "val": "KSA",
+                  "offset": 55
+                }
+              ],
+              "location": "SubscriptionPageSteps.aUserVerifySubscriptionTypeCurruncy(String,String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 21763700,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2000208600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "SubscriptionPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "User Note KSA Flag",
+            "match": {
+              "arguments": [
+                {
+                  "val": "KSA",
+                  "offset": 10
+                }
+              ],
+              "location": "SubscriptionPageSteps.aUserVerifySubscriptionCuntoryFlag(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@KSA_Subscription_Page"
+          }
+        ]
+      }
+    ],
+    "name": "KSA Page Verifications",
+    "description": "",
+    "id": "ksa-page-verifications",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/SubscriptionPage/02_KSASub.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-04-08T21:15:35.969Z",
+        "before": [
+          {
+            "result": {
+              "duration": 623290400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SubscriptionPageSteps.before(Scenario)"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Check KUW Types",
+        "description": "",
+        "id": "kuw-page-verifications;check-kuw-types;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 504390400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SubscriptionPageSteps.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9547181200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2009580400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "SubscriptionPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "User Navigate To Subscription Page KUW",
+            "match": {
+              "arguments": [
+                {
+                  "val": "KUW",
+                  "offset": 35
+                }
+              ],
+              "location": "SubscriptionPageSteps.aUserNavigateToSubscriptionTypePage(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 32928700,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2011238000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "SubscriptionPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "User Note Type LITE is Exist",
+            "match": {
+              "arguments": [
+                {
+                  "val": "LITE",
+                  "offset": 15
+                }
+              ],
+              "location": "SubscriptionPageSteps.aUserVerifySubscriptionType(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 35467900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2000589200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "SubscriptionPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "User Note The Price 1.2 for The Type LITE with The Country KUW is correct",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1.2",
+                  "offset": 20
+                },
+                {
+                  "val": "LITE",
+                  "offset": 37
+                },
+                {
+                  "val": "KUW",
+                  "offset": 59
+                }
+              ],
+              "location": "SubscriptionPageSteps.aUserVerifySubscriptionTypePrice(String,String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 89891300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2002530700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "SubscriptionPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "User Note Type LITE Currency is KWD for the Country KUW",
+            "match": {
+              "arguments": [
+                {
+                  "val": "LITE",
+                  "offset": 15
+                },
+                {
+                  "val": "KWD",
+                  "offset": 32
+                },
+                {
+                  "val": "KUW",
+                  "offset": 52
+                }
+              ],
+              "location": "SubscriptionPageSteps.aUserVerifySubscriptionTypeCurruncy(String,String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 13547400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2000989000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "SubscriptionPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "User Note KUW Flag",
+            "match": {
+              "arguments": [
+                {
+                  "val": "KUW",
+                  "offset": 10
+                }
+              ],
+              "location": "SubscriptionPageSteps.aUserVerifySubscriptionCuntoryFlag(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@KUW_Subscription_Page"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-04-08T21:15:56.843Z",
+        "before": [
+          {
+            "result": {
+              "duration": 634993900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SubscriptionPageSteps.before(Scenario)"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Check KUW Types",
+        "description": "",
+        "id": "kuw-page-verifications;check-kuw-types;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 87029400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SubscriptionPageSteps.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8556321100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2009405700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "SubscriptionPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "User Navigate To Subscription Page KUW",
+            "match": {
+              "arguments": [
+                {
+                  "val": "KUW",
+                  "offset": 35
+                }
+              ],
+              "location": "SubscriptionPageSteps.aUserNavigateToSubscriptionTypePage(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 38490100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2013068600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "SubscriptionPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "User Note Type CLASSIC is Exist",
+            "match": {
+              "arguments": [
+                {
+                  "val": "CLASSIC",
+                  "offset": 15
+                }
+              ],
+              "location": "SubscriptionPageSteps.aUserVerifySubscriptionType(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 32778400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2009270500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "SubscriptionPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "User Note The Price 2.5 for The Type CLASSIC with The Country KUW is correct",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2.5",
+                  "offset": 20
+                },
+                {
+                  "val": "CLASSIC",
+                  "offset": 37
+                },
+                {
+                  "val": "KUW",
+                  "offset": 62
+                }
+              ],
+              "location": "SubscriptionPageSteps.aUserVerifySubscriptionTypePrice(String,String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 81419300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2010126800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "SubscriptionPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "User Note Type CLASSIC Currency is KWD for the Country KUW",
+            "match": {
+              "arguments": [
+                {
+                  "val": "CLASSIC",
+                  "offset": 15
+                },
+                {
+                  "val": "KWD",
+                  "offset": 35
+                },
+                {
+                  "val": "KUW",
+                  "offset": 55
+                }
+              ],
+              "location": "SubscriptionPageSteps.aUserVerifySubscriptionTypeCurruncy(String,String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 18563300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2007424500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "SubscriptionPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "User Note KUW Flag",
+            "match": {
+              "arguments": [
+                {
+                  "val": "KUW",
+                  "offset": 10
+                }
+              ],
+              "location": "SubscriptionPageSteps.aUserVerifySubscriptionCuntoryFlag(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@KUW_Subscription_Page"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-04-08T21:16:16.343Z",
+        "before": [
+          {
+            "result": {
+              "duration": 653661000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SubscriptionPageSteps.before(Scenario)"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Check KUW Types",
+        "description": "",
+        "id": "kuw-page-verifications;check-kuw-types;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 119647500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SubscriptionPageSteps.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7420544600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2004201800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "SubscriptionPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "User Navigate To Subscription Page KUW",
+            "match": {
+              "arguments": [
+                {
+                  "val": "KUW",
+                  "offset": 35
+                }
+              ],
+              "location": "SubscriptionPageSteps.aUserNavigateToSubscriptionTypePage(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 41259300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2002161000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "SubscriptionPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "User Note Type PREMIUM is Exist",
+            "match": {
+              "arguments": [
+                {
+                  "val": "PREMIUM",
+                  "offset": 15
+                }
+              ],
+              "location": "SubscriptionPageSteps.aUserVerifySubscriptionType(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 32275800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2010366300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "SubscriptionPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "User Note The Price 4.8 for The Type PREMIUM with The Country KUW is correct",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4.8",
+                  "offset": 20
+                },
+                {
+                  "val": "PREMIUM",
+                  "offset": 37
+                },
+                {
+                  "val": "KUW",
+                  "offset": 62
+                }
+              ],
+              "location": "SubscriptionPageSteps.aUserVerifySubscriptionTypePrice(String,String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 82410500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2005505800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "SubscriptionPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "User Note Type PREMIUM Currency is KWD for the Country KUW",
+            "match": {
+              "arguments": [
+                {
+                  "val": "PREMIUM",
+                  "offset": 15
+                },
+                {
+                  "val": "KWD",
+                  "offset": 35
+                },
+                {
+                  "val": "KUW",
+                  "offset": 55
+                }
+              ],
+              "location": "SubscriptionPageSteps.aUserVerifySubscriptionTypeCurruncy(String,String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 16988800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2012794800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "SubscriptionPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "User Note KUW Flag",
+            "match": {
+              "arguments": [
+                {
+                  "val": "KUW",
+                  "offset": 10
+                }
+              ],
+              "location": "SubscriptionPageSteps.aUserVerifySubscriptionCuntoryFlag(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@KUW_Subscription_Page"
+          }
+        ]
+      }
+    ],
+    "name": "KUW Page Verifications",
+    "description": "",
+    "id": "kuw-page-verifications",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/SubscriptionPage/03_KUWSub.feature",
+    "tags": []
+  }
+]
